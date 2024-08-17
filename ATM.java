@@ -33,7 +33,7 @@ public class ATM {
 		balance -= amount;
 	}
 	
-	public int balanceEnquiry() {
+	public int balanceInquiry() {
 		return balance;
 	}
 	
@@ -58,7 +58,7 @@ public class ATM {
 				option = sc.nextInt();
 				switch(option) {
 				case 1: 
-					System.out.println("Current Balance is: "+ atm.balanceEnquiry());
+					System.out.println("Current Balance is: "+ atm.balanceInquiry());
 					break;
 				case 2: 
 					System.out.println("Enter the deposit amount: ");
